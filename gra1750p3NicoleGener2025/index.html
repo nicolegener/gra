@@ -3,41 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <title>Caramel Flan | Nicole Gener, 2025</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Island+Moments&family=Petit+Formal+Script&display=swap" rel="stylesheet">
 	<style>	
-		  body {margin:0;}
-				body {background-color: #F2D8CE}
-		  wrapper {width:1366px;display:block;margin:auto;}
+		.logo{vertical-align:middle 
+		}
+		h1{
+			display:inline;
+		}
+		  body {margin:0;
+		background-image: url("background.jpg")
+		}
+		  wrapper {
+			  width:1366px;display:block;margin:auto;
+			  background-color: rgba(255,255,255,.6);
+		}
 		section{
+			margin-left: 20px;
 			display:inline-block;
 			vertical-align:top;
 		}
 		.Ingredients {
-			width: 250px;
+			color: #3B1D1D;
+			width: 18%;
 			border-radius: 50px;
-			height: 300px;
-			background-color: #F2E1DC;
-			font-style: san-serif;
-			padding: 20px;
+			height: 310px;
+			background-color: #D9CDBD;
+			font-style: sans-serif;
+			font-size: 18px;
+			padding: 30px;
 		}
 		.Instructions {
-			width: 700px;
+			color: #3B1D1D;
+			width: 68%;
 			border-radius: 50px;
-			height: 300px;
-			background-color: #F2E1DC;
-			font-style: san-serif;
+			height: 310px;
+			background-color: #D9CDBD;
+			font-style: sans-serif;
+			font-size: 18px;
+			padding: 30px;
+		}
+		.Summary {
+			color: #3B1D1D;
+			width: 80%;
+			border-radius: 50px;
+			height: 125px;
+			background-color: #D9CDBD;
+			font-style: sans-serif;
+			font-size: 23px;
+			padding: 40px;
+			display: block;
+			margin: auto;
+			text-align:center;
+			font-style: sans-serif;
+			margin-bottom: 30px;
+		}
+		.title {
+			
+			font-family: "Petit Formal Script", cursive;
+			font-size: 50px;
+		}
+		.RecipeName {
+			font-family: "Alan Sans", sans-serif;
+			text-align: center;
+			font-size: 40px;
+			color: #754836;
+				
+		}
+		header {
+			text-align:center;
+			background-color: #D9CDBD;
+		}
+		.banner {
+			display: block;
+			margin: auto;
+			border-radius: 50px;
+		
+		}
+		.image2 {
+			display: block;
+			margin: auto;
+			border-radius: 100px;
+			padding: 50px;
+		}
+		wrapper {background-color: rgba(255,255,255,.6);
+			padding-top: 50px;
+		}
+		footer {
+			font-size: 16px;
+			text-align: center;
 			padding: 20px;
 		}
 	  </style>
 </head>
 
 <body>
-<wrapper>
-  <header> <img class="logo" src="STlogo.png" />
-    <h1>Sweet Treat Recipes</h1>
+	  <header> <img class="logo" src="STlogo.png" />
+    <h1 class="title"> Sweet Treat Recipes</h1>
   </header>
+<wrapper>
   <main> <img class="banner" src="caramel_flan.jpg" />
-    <h2>Caramel Flan</h2>
-    <p>Caramel flan, also known as crème caramel, is a classic dessert made of a smooth, silky custard base and topped with a layer of clear caramel sauce. When served, the flan is inverted onto a plate, so the caramel flows down over the custard. </p>
+    <h2 class="RecipeName">Caramel Flan</h2>
+    <p class="Summary">Caramel flan, also known as cr&egrave;me caramel, is a classic dessert made of a smooth, silky custard base and topped with a layer of clear caramel sauce. When served, the flan is inverted onto a plate, so the caramel flows down over the custard. Made from simple ingredients like eggs, milk, and sugar, it&rsquo;s baked in a water bath to ensure an even, tender cook and a delicate consistency. Popular in Latin America, Spain, and the Philippines, flan&rsquo;s flavor is often vanilla-based but can also feature variations like cream cheese or coconut.  </p>
     <section class="Ingredients">
       <h3>Ingredients</h3>
       <ul>
@@ -52,7 +123,7 @@
     <section class="Instructions">
       <h3>Instructions</h3>
       <ol>
-        <li>Preheat the oven to 350 degrees F (175&deg;C).</li>
+        <li>Preheat the oven to 350&deg; F (175&deg;C).</li>
         <li>Cook sugar in a small, heavy saucepan over medium-low heat, stirring occasionally, until golden. Pour caramel into a 10-inch round baking dish, tilting to coat the bottom and sides. Set aside.</li>
         <li>Beat cream cheese in a large bowl until smooth. Beat in eggs, one at a time, until well incorporated. Mix in milks and vanilla until smooth. Pour into the caramel-coated baking dish.</li>
         <li>Line a roasting pan with a damp kitchen towel. Place the baking dish inside the roasting pan on the towel, then place the roasting pan on the oven rack. Fill the roasting pan with boiling water to reach halfway up the sides of the baking dish.</li>
@@ -61,6 +132,7 @@
         <li>Enjoy!</li>
       </ol>
     </section>
+	  <img class="image2" src="caramel_flan2.jpg"/>
   </main>
   <footer>
     <p>&copy; 2025, Nicole Gener.</p>
